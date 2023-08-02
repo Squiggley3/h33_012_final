@@ -1,11 +1,11 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: beige;
+    font-family: 'Pacifico', cursive;    color: beige;
     margin: 0;
+    background-image: url("static/img/purple_night_sky_gif.gif");
 }
 
 .container{
-    background-image: url("static/img/bg.png");
+    
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -41,6 +41,7 @@ button:hover{
 }
 
 #date{
+    font-family: 'ZCOOL KuaiLe', sans-serif;
     position:absolute;
     top:4vh;
     left: 50px;
@@ -53,6 +54,7 @@ button:hover{
 }
 
 #clock{
+    font-family: 'ZCOOL KuaiLe', sans-serif;
     position:absolute;
     top:4vh;
     right: 50px;
@@ -77,6 +79,7 @@ h1{
 }
 
 .widget{
+    font-family: 'Pacifico', cursive;
     height: 80vh;
     background-color: rgba(0,0,0,0.4); 
     margin: 8px;
@@ -94,6 +97,7 @@ h1{
 }
 
 #note-area{
+    font-family: 'Pacifico', cursive;
     font-size: 18px;
     max-width: 28vw;
     max-height: 58vh;
@@ -101,7 +105,15 @@ h1{
     border-radius: 10px;
 }
 
+.center{
+    margin-left: auto;
+    margin-right: auto;
 
+}
 
-
+.weekday{
+    width: 20vw;
+    height: 6vh;
+    border-radius: 4px;
+}
 
